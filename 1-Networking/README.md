@@ -1,15 +1,23 @@
 ## Networking Fundamentals
 
-This section documents practical networking troubleshooting exercises completed as part of my IT Support Home Lab.
+Basic Networking:
+
+1. Find your Mac's IP address
+   Open Terminal on your Mac and enter " ifconfig getifaddr en0"
+   
+2. Find your default gateway:
+   Enter " route -n get default"
+
+Now this section documents practical networking troubleshooting exercises completed as part of my IT Support Home Lab.
 
 #### 1. Testing Network Connectivity with Ping
 What I learned
 ping is a basic network troubleshooting tool used to test whether a device can reach another IP address across a network.
 I used Google's public DNS server (8.8.8.8) as the destination.
-Command used
+*** Command used ***
 ping -c 4 8.8.8.8
 The -c 4 option tells macOS to send 4 ICMP echo requests and then stop.
-Result
+##### Result
 * 4 packets transmitted
 * 4 packets received
 * 0.0% packet loss
