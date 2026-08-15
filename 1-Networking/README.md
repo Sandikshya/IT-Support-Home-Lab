@@ -1,4 +1,4 @@
-### Networking Fundamentals
+## Networking Fundamentals
 
 This section documents practical networking troubleshooting exercises completed as part of my IT Support Home Lab.
 
