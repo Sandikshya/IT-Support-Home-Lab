@@ -2,7 +2,7 @@
 
 This section documents practical networking troubleshooting exercises completed as part of my IT Support Home Lab.
 
-## 1. Testing Network Connectivity with Ping
+#### 1. Testing Network Connectivity with Ping
 What I learned
 ping is a basic network troubleshooting tool used to test whether a device can reach another IP address across a network.
 I used Google's public DNS server (8.8.8.8) as the destination.
@@ -17,7 +17,7 @@ Result
 What this showed
 The test confirmed that my Mac could successfully communicate with 8.8.8.8 and that no packets were lost during the test.
 
-## 2. Testing a Domain Name with Ping
+#### 2. Testing a Domain Name with Ping
 What I learned
 When I ping a domain name instead of an IP address, the computer first needs to resolve the domain name to an IP address using DNS.
 Command used
@@ -33,7 +33,7 @@ The test confirmed both:
 1. DNS was able to resolve google.com to an IP address.
 2. My Mac could communicate with the resolved IP address.
 
-## 3. DNS Troubleshooting with nslookup
+#### 3. DNS Troubleshooting with nslookup
 What I learned
 DNS (Domain Name System) translates human-readable domain names into IP addresses.
 For example:
@@ -41,7 +41,7 @@ google.com → IP address
 nslookup can be used to check DNS resolution and identify which DNS server is responding.
 Command used
 nslookup google.com
-## Result
+#### Result
 The command showed that my Mac was using a local DNS server and successfully received an IPv4 address for google.com.
 What this showed
 DNS resolution was working correctly on my network.
