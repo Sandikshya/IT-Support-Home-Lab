@@ -14,7 +14,7 @@ Now this section documents practical networking troubleshooting exercises comple
 What I learned
 ping is a basic network troubleshooting tool used to test whether a device can reach another IP address across a network.
 I used Google's public DNS server (8.8.8.8) as the destination.
-*** Command used ***
+###### Command used ######
 ping -c 4 8.8.8.8
 The -c 4 option tells macOS to send 4 ICMP echo requests and then stop.
 ##### Result
